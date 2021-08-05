@@ -1,0 +1,80 @@
+<html>
+<head>
+<title> Form</title>
+</head>
+<body>
+<form>
+<fieldset style="width:50%">
+<legend> <b>Form Validation</b> </legend>
+<fieldset>
+<legend> <b>Personal Information</b></legend>
+<br>First Name : <input type="text" name="fname" maxlength=15 size = "20px"> &emsp;&emsp;&emsp;&emsp;
+Last Name : <input type="text" name="lname" maxlength=15 size = "20px"><br>
+<br>BirthDate &emsp;: <input type="date" name="date" ><br>
+<br>Email  &emsp;&ensp; :  <input type="email" name="email" size = "20px" > &emsp;&emsp;&emsp;&emsp;
+Phone No : <input type="tel" name="mobile" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" size = "20px"><br>
+<br>Password : <input type="password" name="Password" size = "40px" ><br>
+</fieldset>
+
+<fieldset>
+<legend><b> Gender</b></legend>
+<input type="radio" name="gender" value="Male" checked> Male
+<br><input type="radio" name="gender" value="Female"> Female
+</fieldset>
+
+<fieldset>
+<legend><b> Address Data</b></legend>
+<br>Complete Postal Address: <input type="text" name="address" size = 70 ><br>
+ <br> &emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+ <input type="text" name="address" size = 70 >
+<br><br>City : <input type="text" name="City" size = 20 >  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;
+Pin Code : <input type="number" name="Pincode" size = 20 ><br>
+<br>Country: <select name="country">
+	<option value="India"> INDIA</option>
+	<option value="USA"> USA</option>
+	<option value="Europe"> EUROPE</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend><b> Academic Qualification</b></legend>
+<table id="table1" border="2">
+<th>Degree</th>
+<th>School/College</th>
+<th>Year of Passing</th>
+<th>Percentage</th>
+<tr><td><input tupe="text" name="t11"></td>
+<td><input tupe="text" name="t12"></td>
+<td><input tupe="text" name="t13"></td>
+<td><input tupe="text" name="t14"></td>
+<tr><td><input tupe="text" name="t21"></td>
+<td><input tupe="text" name="t22"></td>
+<td><input tupe="text" name="t23"></td>
+<td><input tupe="text" name="t24"></td>
+<tr><td><input tupe="text" name="t31"></td>
+<td><input tupe="text" name="t32"></td>
+<td><input tupe="text" name="t33"></td>
+<td><input tupe="text" name="t34"></td>
+</table>
+</fieldset>
+
+<fieldset>
+<legend><b>Skills</b></legend>
+<input type="checkbox" name="Skill1" value="JAVA">JAVA
+<input type="checkbox" name="Skill2" value="Python">Python
+<input type="checkbox" name="Skill3" value="C#">CSS
+<input type="checkbox" name="Skill4" value="C++">C++
+<input type="checkbox" name="Skill5" value="HTML">HTML
+</fieldset>
+
+<fieldset>
+<legend><b>Resume</b></legend>
+Upload : <input type="file" id="resume" name="resume"> 
+</fieldset>
+
+<br>
+<pre>                               <input type="submit" name="Submit details">   <input type="reset" name="Reset Values">                            </pre>
+</form>
+</fieldset>
+</body>
+</html>
